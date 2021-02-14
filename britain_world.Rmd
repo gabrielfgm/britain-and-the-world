@@ -3,129 +3,59 @@ title: "Britain and the World, 1815-1914"
 author: | 
     | Dr. Gabriel Geisler Mesevage 
     | gabriel.mesevage@kcl.ac.uk
-    | Office Hours: Wed. 10-11am & Thurs. 2-3pm
-date: "`r format(Sys.time(), '%d %B, %Y')`"
+    | Office Hours: Mon. 10:30-11:30am & Fri. 2-3pm
+date: "Last update: `r format(Sys.time(), '%d %B, %Y')`"
 output: 
   xaringan::moon_reader:
-    includes:
-      after_body: "afterInit.html"
     nature:
-      beforeInit: "macros.js"
+      beforeInit: "helper_functions/macros.js"
+      ratio: '16:9'
     lib_dir: libs
-    css: [xaringan-themer.css, video.css]
+    css: ["xaringan-themer.css", "helper_functions/extra.css"]
 ---
 
-<style type="text/css">
-.white { color: white; }
-.large { font-size: 130% }
-.small { font-size: 70% }
-.pull-right40{ 
-  float: right;
-  width: 40%;}
-.pull-left60{
-  float: left;
-  width: 60%;
-}
-.pull-left40{
-  float: left;
-  width: 40%;
-}
-.pull-right60{
- float: right;
- width: 60%;
-}
-.scale120{
-  float: left;
-  width: 120%;
-}
-.scale80{
-  float: right;
-  width: 80%
-}
-.footer{
-    font-size: 10pt;
-    color: #F7F8FA;
-    position: absolute;
-    left: 15px;
-    bottom: 2px;
-}
-.footerb{
-    font-size: 10pt;
-    color: black;
-    position: absolute;
-    left: 15px;
-    bottom: 2px;
-}
-.audio-placement{
-    position: absolute;
-    right: 15px;
-    top: 2px;
-}
-.video-placement{
-    position: absolute;
-    right: 2px;
-    bottom: 2px;
-}
-</style>
-
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
-```
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE,
+                      message = FALSE, fig.align='center', fig.retina=3,
+                      out.width="75%")
 
+
+```
 
 ```{r xaringan-themer, include = FALSE}
 library(xaringanthemer)
-solarized_light()
-source("~/Dropbox/teaching/lecture_ggplot2_theme.R")
+style_solarized_light()
+source("helper_functions/theme_lecture.R")
+xaringanExtra::use_webcam()
+xaringanExtra::use_tile_view()
 ```
 
-# Welcome to Online Teaching!
-
-### To Navigate
-
-+ Press `f` to enter fullscreen
-+ Press `Down/Right` to move forward
-+ Press `Up/Left` to move back
-
-### Video/Audio
-
-+ If in full-screen plays automatically when you switch slides
-+ Can pause video by clicking on player
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/1_intro.mp4" type="video/mp4">
-</video>
-
----
-
-background-image: url("atkinson_liverpool_quay.jpg")
-backgroun-size: fit
-
-.pull-left60[
 
 # Today's Talk
 
-.white[
-+ The geopolitical settlement:
-    - From Waterloo to Crimea
-    - The expansion of empire
-    - From Crimea to WWI
-+ Global economic integration
-    - The mass movement of goods
-    - The mass movement of capital
-    - The mass movement of people
-+ The Consequences of Globalization
-    - Spread of industrialization & the balance of power
-]
+.pull-left60[
+
+### 1. The geopolitical settlement:
+  - Britain at the end of the French Wars
+
+### 3. The Consequences of Globalization
+  - Whether globalization generates instability
+  - Globalization and WWI
 ]
 
-.footer[
-Atkinson Grimshaw, *Liverpool Quay by Midnight*, [Photo © Tate](https://www.tate.org.uk/art/artworks/grimshaw-liverpool-quay-by-moonlight-t00902)  
+.pull-right40[
+
+### 2. Global economic integration
+  - The mass movement of goods
+  - The mass movement of capital
+  - The mass movement of people
 ]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/2_overview.mp4" type="video/mp4">
-</video>
+---
+
+class: inverse, center, middle
+
+# Part I
 
 ---
 
@@ -141,10 +71,6 @@ Atkinson Grimshaw, *Liverpool Quay by Midnight*, [Photo © Tate](https://www.tat
 2. The defeat of Napoleon
 3. The loss of colonies in the Americas
 ]
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/3_shift.mp4" type="video/mp4">
-</video>
 
 ---
 
@@ -164,29 +90,26 @@ Atkinson Grimshaw, *Liverpool Quay by Midnight*, [Photo © Tate](https://www.tat
 ![ny_chic](train_ny_chicago.jpg)
 ]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/4_ir.mp4" type="video/mp4">
-</video>
-
 ---
 
 ### The Defeat of Napoleon
 
-![:scale 90%](Minard.png)
+.pull-left60[
+![:scale 95%](Minard.png)
+.footerb[
+Charles Minard, *Carte figurative des pertes successives en hommes de l'Armée Française dans la campagne de Russie 1812–1813*, 1869
+]
+]
 
+.pull-right40[
 + Invasion of Russia key to defeat (Schroeder, 1994)
     + Disastrous loss of life
 + Weakening of Napoleon prompt's Prussian defection
 + Napoleonic intransigence scuttles Franco-Russian settlement mediated by Austria
 + Britain's role is mostly financing
-
-.footerb[
-Charles Minard, *Carte figurative des pertes successives en hommes de l'Armée Française dans la campagne de Russie 1812–1813*, 1869
 ]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/5_defeat.mp4" type="video/mp4">
-</video>
+
 
 ---
 
@@ -201,13 +124,9 @@ Charles Minard, *Carte figurative des pertes successives en hommes de l'Armée F
 + Largest Navy by order of magnitude
 + Not directly threatened by only other large power (Russia)
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/6_balance_sheet.mp4" type="video/mp4">
-</video>
-
 ---
 
-```{r, naval_sup, fig.align='center', out.width='100%', fig.height=4, fig.width=6, fig.retina=4}
+```{r, naval_sup, fig.align='center', out.width='90%', fig.height=4, fig.width=6, fig.retina=4}
 library(tidyverse)
 library(ggrepel)
 library(ggthemes)
@@ -265,10 +184,6 @@ nav_sup %>%
           subtitle = "Source: Harding (1999), Appendix")
 ```
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/7_naval.mp4" type="video/mp4">
-</video>
-
 ---
 
 ## The Napoleonic War and Trade
@@ -288,15 +203,11 @@ nav_sup %>%
 ![blockade](jack_tars_blockade.jpg)
 ]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/8_blockade.mp4" type="video/mp4">
-</video>
-
 ---
 
-## Short-Run Effects of the Napoleonic War
+### Short-Run Effects of the Napoleonic War
 
-```{r relative_prices, fig.align='center', out.width='100%', fig.height=4, fig.width=6, fig.retina=4}
+```{r relative_prices, fig.align='center', out.width='70%', fig.height=4, fig.width=6, fig.retina=4}
 
 library(ggalt)
 
@@ -325,22 +236,22 @@ rpd %>%
 Source: Findlay & O'Rourke, Table 7.1
 ]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/9_war_prices.mp4" type="video/mp4">
-</video>
+---
+
+class: inverse, center, middle
+
+# Part II
 
 ---
 
-## The Movement of Goods
+### The Movement of Goods
 
-![:scale 90%](anglo_us_wheat.png)
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/10_commodities.mp4" type="video/mp4">
-</video>
+.center[
+![:scale 60%](anglo_us_wheat.png)]
 
 ---
 
+.right-column[
 ```{r merchant_shipping, fig.align='center', out.width='90%', fig.height=4, fig.width=6, fig.retina=4}
 
 mshipping <- tibble(Date = c(1814, 1860, 1890, 1914),
@@ -358,19 +269,19 @@ mshipping %>%
 
 ```
 
-> "The British merchant fleet... amounted to 40 to 50 per cent of the world's total shipping and an even larger share of its ocean-going steam shipping ...as high as 71 per cent in 1900." <br> -Belich, p. 111.
-
 .footerb[
 Source: Belich, p. 111
 ]
+]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/11_merchant_fleet.mp4" type="video/mp4">
-</video>
+.left-column[
+"The British merchant fleet... amounted to 40 to 50 per cent of the world's total shipping and an even larger share of its ocean-going steam shipping ...as high as 71 per cent in 1900." <br> -Belich, p. 111.
+
+]
 
 ---
 
-```{r trade_growth, fig.align='center', fig.retina=4, out.width='100%', fig.height=5, fig.width=6}
+```{r trade_growth, fig.align='center', fig.retina=4, out.width='90%', fig.height=4, fig.width=6}
 library(tidyverse)
 library(ggthemes)
 library(ggrepel)
@@ -394,10 +305,6 @@ df %>% gather("indicator", "share", -date) %>%
   xlab("")
 
 ```
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/12_trade_gdp.mp4" type="video/mp4">
-</video>
 
 ---
 
@@ -436,91 +343,158 @@ inv_df %>%
 ```
 ]
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/13_capital.mp4" type="video/mp4">
-</video>
+---
+
+### Where did Britain put its money?
+
+```{r market_weights, fig.retina=4, fig.height=4, fig.width=6}
+library(tidyverse)
+weights <- read_csv("michie_lse_weights.csv")
+
+weights <- weights %>% mutate(Market_Weight = as.numeric(Market_Weight))
+
+weights %>% 
+  ggplot(aes(Security, Market_Weight, fill = Security,
+             label = Market_Weight)) +
+  facet_wrap(~Year, nrow = 1) +
+  geom_col(position = "dodge") +
+  geom_text(nudge_y = .075) +
+  theme_lecture +
+  scale_fill_hc() +
+  xlab("") +
+  ylab("Market Weight") +
+  guides(fill = FALSE) +
+  coord_flip() +
+  theme(axis.text.x=element_text(angle=45, hjust=1)) +
+  labs(caption = "Source: Chabot & Kurz, Table 6") 
+```
 
 ---
 
-## Capital movements and importing crises
+## Capital flows and the gold standard
 
 .pull-left[
-+ Flow of global lending creates economic interdependencies in the 19th c.
-+ A crisis in one country can propigate to others
-+ Many examples, e.g. 1825 foreign loans crisis, 1873 panic in New York, or 1890s Baring crisis
-+ Baring crisis
-    - Barings Bank nearly defaults on portfolio of loans to Argentina
-    - Ricochets back to cause financial distress in London 
+![:scale 100%](gold_standard_adherence.png)
 ]
 
 .pull-right[
-![barings](baring_crisis.jpg)
-]
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/14_importing_crises.mp4" type="video/mp4">
-</video>
-
++ Across the 19th century countries increasingly adopted the gold standard
+    - Preferred by investors to insulate against exchange rate shocks
+    - Preferred by traders so they do not have to hedge currency risk
++ Gold standard is complicated: **not** just paying people with gold coins
+    - notes redeemable for gold, notes redeemable for other notes that are redeemable for gold, etc.
+    ]
 ---
 
 ## The Movement of People
 
-![:scale 100%](ellis_island.jpg)
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/15_migration.mp4" type="video/mp4">
-</video>
+.center[
+![:scale 70%](ellis_island.jpg)]
 
 ---
 
-```{r wage_rent_ratios, fig.align='center',fig.retina=3, out.width="100%", fig.width=6, fig.height=4.5}
-library(readxl)
-library(ggrepel)
+## The extent of 19th c. global migration
 
-wr <- read_xlsx("wage_rent_ratios.xlsx")
-
-wr <- wr %>% gather("Country", "Index", - Year) %>% 
-  mutate(Continent = ifelse(Country %in% c("Australia", "US"), 
-                            "New World", "Old World"),
-         Policy = ifelse(Country %in% c("France", "Germany"),
-                                 "Protectionist", "Open"))
-
-wr %>% 
-  ggplot(aes(Year, Index, 
-             group = Country, 
-             color = Continent, linetype = Policy)) +
-  geom_line() + 
-  geom_point()+
-  theme_hc() +
-  scale_color_hc() +
-  guides(color = FALSE) +
-  geom_label_repel(data = wr %>% filter(Year==1912),
-             aes(Year, Index, color=Continent, 
-                 label = Country)) +
-  xlim(c(1875, 1915)) +
-  theme(panel.background = element_rect(fill = "#fdf6e3"),
-        plot.background = element_rect(fill = "#fdf6e3"))  +
-  ggtitle("Moving for Better Wages?", 
-          subtitle = "Convergence in Wage-Rental Ratios, 1877 to 1912") +
-  theme_lecture
-
-```
-
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/16_migration_why.mp4" type="video/mp4">
-</video>
+.center[
+![:scale 90%](mckeown_mig.png)
+]
 
 ---
 
-### Did 19th c. globalization sow the seeds of its own destruction?
+### Multiple migration systems
 
-> "What an extraordinary episode in the economic progress of man that age was which came to an end in August 1914! The inhabitant of London could order by telephone, sipping his morning tea in bed, the various products of the whole earth, in such quantity as he might see fit, and reasonably expect their delivery upon his doorstep ; he could at the same moment and by the same means adventure his wealth in the natural resources and new enterprises of any quarter of the world, and share, without exertion or even trouble, in their prospective fruits and advantages; or he could decide to couple the security of his fortunes with the good faith of the townspeople of any substantial municipality in any continent that fancy or information might recommend.<br> -John Maynard Keynes, *The Economic Consequences of the Peace*, pp. 11
+.center[
+![:scale 70%](migration_systems.png)
+]
++ We should not privilege Atlantic migration
 
-### Destabilizing forces
+---
 
-+ Spread of industrialization
-+ Globalizations discontents
+## When were migration flows?
 
-<video width="20%" height="15%" controls id="my_video">
-    <source src="videos/17_globalization.mp4" type="video/mp4">
-</video>
+.center[
+![:scale 70%](migrations_graph.png)
+]
+
+---
+
+class: inverse, center, middle
+
+# Part III
+
+---
+
+### Was there deglobalization?
+
+#### Yes, in several dimensions
+
++ trade costs, market integration, migration flows, gold standard adherence, etc.
+
+> "...the Liverpool–New Orleans cotton price gap increased from 12% to 43.8%; the London–Calcutta jute price gap rose from 4.4% to 106.8%, the rapeseed price gap rose from 14% to 140%, and the linseed price gap rose from 21.8% to 216.8%; the Hull–Bombay cottonseed price gap rose from 39.9% to 278%; and the London–Rangoon rice price gap increased from 26.5% to an astonishing 422.5%"<br>
+-Findlay & O'Rourke, p. 434
+
+.pull-left[
+#### WWI ushers in
+
++ Significant *divergence* in global goods prices
++ Countries did **not** generally become more closed to trade during WWI...
+    - But markets became less integrated
+]
+.pull-right.center[
+![:scale 70%](freight_rates_mohammed_williamson.png)
+]
+
+---
+
+## What accounts for the forces of deglobalization?
+
+.large[ 
++ 3 hypotheses (James, *The End of Globalization*, 2001)
+    - Speculative finance
+    - Nationalist resentment of distributional consequences (pressure on wages, sectors)
+    - Growth of national structures to cope with global forces
+
+#### Does globalization necessarily generate dissatisfaction?
+
+> "The history of the modern world economy illustrates two points. First, economies work best when they are open to the world. Second, **open economies work best when their governments address the sources of dissatisfaction with global capitalism.**" (Frieden, *Global Capitalism*, p. 476)
+]
+
+---
+
+.pull-left[
+### Speculative finance
+
++ Flow of global lending creates economic interdependencies in the 19th c.
++ A crisis in one country can propagate to others
++ Many examples, e.g. 1825 foreign loans crisis, 1873 panic in New York, or 1890s Baring crisis
+
+
+> "To the extent that the Depression was caused by malfunctioning international capital markets, or the gold standard that was thought at the time to underpin them, we have **yet another case of globalization undermining itself, since the Depression was the major cause of interwar protectionism**" (O'Rourke 2019, 371-2).
+
+]
+
+.pull-right.center[
+![:scale 100%](baring_crisis.jpg)
+]
+
+---
+
+### The distributional consequences of globalization
+
++ The Trilemma
+    + The 'inconsistent quartet' with trade 
+    + Expanded to 'incompatible quintet' with migration/labor market 
+
+.center[
+![:scale 80%](daunton_table.png)]
+
+---
+
+![tooze fertik](tooze_fertik_header.png)
+
+> "The aim of this essay is to question this common sense view of World War I as disrupting the world economy and putting an end to an era of globalization. ...We offer a narrative sketch of how one might write **a history in which the war figured not as an exogenous shock**, but as a moment of convulsive and violent realignment endogenous to that history. ...what is at stake are **the destabilizing consequences of convergence**, the basic prediction of any neoclassical vision of globalization. ...Being converged upon by Imperial Russia was every bit as unsettling to the powers of Western Europe before 1914, as the rise of China is to the United States today."<br>
+-Tooze & Fertik
+
+### A cause of WWI?
+
+> "...capital flows and technology transfer helped Russia converge on the established powers. This disrupted pre-existing geopolitical equilibria and led Germany in particular to devise military strategies to counter the threat. ...the spread of the Industrial Revolution to Germany had earlier undermined the geopolitical equilibrium in Europe.." (O'Rourke 2019, 373).

@@ -1,33 +1,12 @@
+---
+title:  Britain in the World, 1815-1914
+author: Dr. Gabriel F. Geisler Mesevage
+geometry: margin=2.5cm
+---
+
 # Rough Script of lecture talk
 
-### Sketch outline
-
-- Intro
-- Setting up the 19th c. economy
-    + IR
-    + International warfare
-        * Short-run and long-run effects
-- IR technology and globalization
-    + Railroads
-    + Steam
-- Imperialism
-    + Informal
-    + Formal
-    + As a driver of economic integration
-+ What globalization entailed
-    * Movement of goods
-    * Movement of capital
-    * Movement of people
-+ Globalization and the balance of power
-
-1. Intro
-
-+ Welcome to online teaching. These are html slides with embedded video
-+ To enter fullscreen press f
-    * In fullscreen, the videos will autoplay as you switch slides
-+ To navigate press up/down left/right
-
-2. Lecture overview
+1. Lecture overview
 
 Britain and the World over 100 years
 
@@ -39,14 +18,18 @@ Britain and the World over 100 years
         - The political forces that sustained it
         - and the political forces that helped to dismantle it at the end of the 19th century
     * This means we will organize the lecture around sketching out the increasing movement of what economists rather dryly refer to as the 'factors of production': goods, capital, and labor.
+    * Our interest in a sense lies in understanding how in the 19th century the 'world' came to figure in the lived experience of people living in Britain
+        - What kind of historical processes result in a situation in which Civil War in the United States can plunge the Lancashire region into a severe unemployment crisis?
 + Our starting point will be the events that provide the initial conditions for the 19th century global economy
     * In particular, we will discuss the emergence of British pre-eminence at the end of the French wars
-+ Although global connections have a long history, many scholars have described the 19th century as the first period of globalization.
++ Although global connections have a long history, many scholars have described the 19th century as the first period of economic globalization.
     * Reasonable people may quibble with that claim, and do, but as we will see the 19th century has a strong claim towards being the first era of globalization in *quantitative* terms: the sheer volume of movement of goods, capital, and people was without prior historical precedent, and it was facilitated by on the 
         + 1 hand the revolution in transport technology emerging from the industrial revolution, and 
         + on the other by a period of relative international political stability 
 
-3. The big 19th c. switch
+### Part I
+
+2. The big 19th c. switch
 
 + The transition from the economic order of the 18th c. to that of the 19th c. is typically described as a change from a mercantilist system to a free-trade regime
     * Mercantilism was the view that trade was zero-sum. European colonizers sought to guard colonial markets as exclusively outlets for their own products, and to maximize the extraction of raw materials from the colonies
@@ -59,7 +42,7 @@ Britain and the World over 100 years
     3. And finally, the loss of American colonies. This is much more than the American revolution, but also for instance, Brazilian independence from Portugal in the 1820s
         - Renders mercantilism less viable in the Americas.
 
-4. Industrial Revolution
+3. Industrial Revolution
 
 + We already discussed the history and origins of the industrial revolution within britain, but here we need to consider some of the global ramifications of the industrial revolution on Britain's relationship with the world
     * The first and most obvious result is that industrial technology was applied to transport and it massively drove down the costs -- in money and in time -- of moving things around the world
@@ -78,7 +61,7 @@ Britain and the World over 100 years
             * we can even think of this as the beginning of a coherent concept of 'developing nations' or a 'global south' -- a distinction predicated on economic patterns that emerge as a consequence of industrialization.
 * Industrialization occurs of course in a context in which trade is common and allowed, an we turn next to considering how that stable trading regime emerged.
 
-5. Defeat of Napoleon
+4. Defeat of Napoleon
 
 + The precipitating event for the 19th century system was the defeat of napoleon and the political order established at the Congress of Vienna.
 + Historians like Schroeder have suggested that Napoleon might not have been defeated had it not been for his ill-judged invasion of Russia.
@@ -90,7 +73,7 @@ Britain and the World over 100 years
     * The design of the resulting settlement appears to intentionally seek to avoid creating a revanchist power, while encircling and containing France on the continent
     * The settlement leaves Britain in a favorable position and it is worth taking stock of Britain's political situation after the Congress
 
-6. The Balance Sheet of British Power
+5. The Balance Sheet of British Power
 
 + The settlement after the Congress of Vienna is typically described as a balance of power, but it was sufficiently lopsided that other scholars such as Schroeder have argued it is better viewed as a period of British hegemony.
 + At least, we could see it as a balance between Britain and Russia, with other European powers relegated to middling power status.
@@ -99,14 +82,14 @@ Britain and the World over 100 years
     - Difficulty of Russian army damaging Britain
     - Relative weakness of other powers
 
-7. Naval balance sheet
+6. Naval balance sheet
 
 + The lopsidedness of the powers of the European countries after the war can be seen partially in the Naval Balance of Power
     * The graph depicts the number of ships in each navy from 1805 to 1830
     * Clearly, the British navy in 1830 was more than 2 times larger than its closest competitor -- and this does not even factor in the underlying quality of the ships.
 
 
-8. The effects of the war: the blockade system
+7. The effects of the war: the blockade system
 
 + Before moving on it is worth thinking through the changes that were engendered in the global trading system by the French wars
 + Part of the economic dimension to the war was the Blockade system: Napoleon barred european goods from the continent
@@ -116,7 +99,7 @@ Britain and the World over 100 years
         - Nowadays, we would think of feeding your enemy so as to defeat them as a strange logic
         - Reflected a view that British success would depend on financing the war -- and potentially underestimated Britain's capacity to borrow.
 
-9. The effects of the war: prices
+8. The effects of the war: prices
 
 + The blockade had real effects on trade flows, in particular
     + The flow of British manufactures -- textiles especially going to Europe in exchange for grain is disrupted
@@ -127,7 +110,9 @@ Britain and the World over 100 years
     - Between 1805 and 1812 New Brunswick timber exports go from 5000 to 100,000 tons
     - These divergences persist after the war
 
-10. Commodities
+### Part II
+
+9. Commodities
 
 + We begin with the movement of goods, and I want to start by returning to a graph I showed you when discussing the great depression of the 19th century
 + The movement of goods in the 19th century was first and foremost a story of *market integration*
@@ -140,12 +125,12 @@ Britain and the World over 100 years
     * On the one hand, this resulted in real gains to British consumers, who paid less for their bread
     * But on the other, this damaged British -- and more broadly European -- agricultural producers
 
-11. British merchant fleet
+10. British merchant fleet
 
 + The growth of international trade was particularly important to Britain in several senses. First, Britain benefitted from the trade itself,
     + as the largest merchant marine its ships carried these goods, and this industry was important to Britain
 
-12. Britain and Trade
+11. Britain and Trade
 
 + More broadly, trade was crucial to the British economic engine.
 + Throughout the 19th century, the share of British wealth derived from trade was increasing, and this was particularly true for Britains manufacturing sectors
@@ -153,7 +138,7 @@ Britain and the World over 100 years
 + As a share of overall GDP, in 1851 trade accounted for nearly 20% of total British GDP.
     * This level of trade integration -- the importance of trade to the overall economic engine, was far higher than had ever previously been the case
 
-13. Capital
+12. Capital
 
 + Goods were not the only thing that moved in the 19th century international economic order, it was also characterized by an unusual degree of capital movements
 + The 'export of capital' means the movement of money from one country to another, usually in the form of investment.
@@ -166,20 +151,23 @@ Britain and the World over 100 years
 + The export of capital was so large that it prompted worried debate in Britain
     * Critics, both contemporary and subsequent, worried that this enormous flow of savings abroad proved detrimental to British domestic industry. That Britain chose to finance foreign railroads rather than local ingenuity and that this decision was damaging to British growth prospects in the long-run.
     * This argument has been criticised by contemporary historians it should be noted.
-+ Whatever the domestic effects of the transfer of capital it had other significant effects:
-    * For one thing, the global trade/finance regime incentivized countries to adhere to a common monetary standard.
-    * This helped to propigate the gold standard from Britain around the world: 
+
+13. The portfolio
+
++ Part of the concern 19th century critics evinced over this transfer of capital abroad was a reflection of the small sliver of investment that flowed towards domestic industry.
++ If we look at *what* investors put their money into, we can see that it was predominantly flowing into Bonds of Foreign governments and colonies, and railroads domestically and abroad. 
+    * Colonies in particular saw inflows of investment in railroad construction -- so-called social overhead capital -- thus financing the infrastructure that would enable the export of the commodities that we were just discussing.
+
+14. The gold standard
+
++ The significant capital flows both pressed for and facilitated institutional structures that made cross border investment easier. Most prominantly among these was adherence to a system of fixed exchange rates underpinned by a single commodity i.e. the Gold standard
+    * Investment flows helped to propigate the gold standard from Britain around the world: 
         - First, Britain's financial pre-eminence helps to push bimetallic countries like the US, France and Germany to abandon silver and move to an exclusively gold monetary regime
         - And other countries around the world choose to fix their currencies to sterling.
     * The monetary regime had political ramifications. The widespread use of the gold standard accompanied significant deflation in the later 19th century
-        - Political elites often managed to maintain monetary stability at the cost of unemployment or wages
+        - As we will note later, political elites often managed to maintain monetary stability at the cost of unemployment or wages
         - Scholars such as Eichengreen have argued that this 19th century monetary system was only really possible in a context in which the political claims of workers whose livelihoods were threatened by globalization could be in part ignored
 
-14. Importing crises
-
-+ Another effect of the financial interpenetration of the 19th century was the way in which it tied together the economic fates of nations, such that crises were more rapidly propigated around with world
-+ For instance, the Baring crisis illustrates how failures of investment projects in Argentina could ricochet back to London
-    * Baring's bank nearly fails, and is rescued by the Bank of England. That kind of international transmission of financial crisis is something that becomes more typical in the 19th century, reflecting the greater interpenetration of national economies.
 
 15. The movement of people
 
@@ -195,23 +183,76 @@ Britain and the World over 100 years
     + and it became cheaper for migrants to remit money through the apparatus of international finance, either to help family at home or to help finance the emigration of a relative
 
 
-16. Why did they move
+16. The extent of 19th c. global migration
 
-+ Although the reasons for migration were individually complex, much of it appears to be explainable in terms of simple decisions to move from a place where wages were low and land was scarce, to those where land was abundant and labor was scarce
-    * Indeed, wages in places like the US and Australia were higher on average during the 19th century, and land was much cheaper, than in europe
-    * The process of European labor migrating abroad, and sending grain home after them, helped to both raise European wages and lower wages in the locations the migrants went to
-    * This process of convergence can be seen in the graph: each line shows the ratio of the average wage in a country to the average price of land. The european countries have lines that are increasing:
-        - They are sending abroad people and importing wheat, and this makes European wages rise and land prices fall
-        - The countries that were destinations for immigrants such as the US and Australia show the opposite pattern: wages here are falling relative to the cost of land.
-        - This does not mean that by the end of the 19th century wages were higher in teh UK than in Australia, rather, it tells us about the direction of change.
-        - It also seems to explain the patterns of migration:
-            + Migrants flowed from labor abundant and land-scarce locations like Britain, to labor scarce and land-abundant locations like Australia and the US
-            + We must remember that the 'abundance' of land in these places was often the product of the elimination or displacement of indigenous groups
++ McKeown discusses several migration 'systems' that during the 19th and early 20th centuries saw mass movement of migrants driven by economic pressures generated by the integration of the 19th century economy
++ The Euro-American translatlantic migration was of course the most directly relevant to the British experience
+    * But British activities globally in supporting changing economic patterns are pushing other patterns of migration, e.g. migrants from India and southern China settling in Southeast Asia
+    * Much like the transatlantic migrations, these are largely individuals responding to economic pressures and wage differentials between sending and receiving destinations
+    * Thus, in the trans-atlantic case, wages were significantly higher in the new world than in Britain, although the gap here fell across the 19th century in part in response to the movement of people and the flow of traded goods.
 
-17. The seeds of its own destruction
+17. Multiple migration systems
+
++ It is worth underlying that the flows here are complex and not simply 'The irish going to Boston' as, for instance, I would have learned the story in my American high school
+    * There are multiple patterns of regionalized migration flows.
+    * But what all these systems share is an underlying facilitation by the rise of the greater integration of the global economy which made it easier to learn about migratory opportunities abroad, to move people abroad at reasonable costs, to remit money, and that forced adjustment as economic activity became increasingly specialised.
+
+18. When were migration flows
+
++ Finally, the patterns of migration across the atlantic tracks closely a periodization that is important to Britain's international economic relations in the 19th century, namely that intensity grows over the 19th century and is ruptured by WWI.
+    * But this pattern is not uniformly true
+
+### Part III
+
+19. Was there deglobalization?
+
++ We have already prefigured the answer here at several points. In short form, yes there certainly was
+    * The cost of shipping rising with the onset of WWI
+    * Commodity prices diverge as trading costs rise and as states intervene more in the allocation of economic resources as the mobilize for war
+    * In the bid to pay for the war many countries, including Britain, pause their adherence to the gold standard
+        - Moreover, Britain begins to canabalize the assets its citizens hold abroad in order to pay for war material bought (predominantly) off the Americans
+        - The British portfolio abroad is thus seriously damaged
+    * Migration across the atlantic is abruptly truncated
+
+20. What accounts for the forces of deglobalization?
 
 + The globalized economy of the 19th century encouraged the rapid movement of goods, money and people
-+ It has been argued by some, for instance, as by Keynes here, that this process ended abruptly in 1914 as though stopped by a single assassination
++ Several historians have theorized how in fact these processes of global economic integration could have proved their own undoing:
+    * How globalization could generate backlashes of various sorts that resulted in countries turning inwards
+    * James for instance, suggests several mechanisms
+        1. That the financial flows were destabilizing
+        2. That the institutions built to allow free movement of capital and goods (and people) were socially disruptive and made it impossible for governments to protect their citizens from global economic forces
+        3. And that in a bid to respond to these forces governments constructed national institutions aimed at some insulation from the global economy
++ The view that globalization can beget deglobalization is fairly widespread, e.g. here a well-known political scientist pinpoints the inevitability of 'dissatisfaction with global capitalism'
+    * What is meant here are processes like the one we started with: US civil war, by disrupting cotton production, raised the costs of Lancashire textile manufacturers, which caused them to lay off large numbers of British workers. 
+
+21. Financial instability
+
++ We might start with James point about speculative finance
++ The slew of financial crises across the 19th century underpin this point
+    * The cartoon on the right is showing the Bank of England -- shown here as the 'Old Lady of Threadneedle street' as she was often called -- bailing out a bunch of banks and money market funds that had blown up during the Barings crisis of 1890 when they bet rashly on property schemes and sovereign debt in Argentina
+    * We are all surely familiar with the crisis in 2008 in which weak lending standards to US mortgage borrowers, and some predictable subsequent defaults, could propogate panic globally resulting in e.g. bank failures in Great Britain
+
+22. Distributional consequences
+
++ We have assayed in general terms the fact that the 19th century system often resulted in governments proving unwilling or unable to respond to the needs of their domestic constituents
++ This is often presented in terms of what is called the 'trilemma':
+    * Governments are usually able to pick 2 out of the following 3 options:
+        - Fix the exchange rate
+        - Allow capital mobility
+        - Independent monetary policy
+            + For instance, if there is a big crisis and the Bank of England wanted to cut interest rates to promote economic activity and reduce unemployment they would have a hard time doing so as capital would flow out of the country and this would jeopardize Britain's ability to maintain the gold standard
+    * The table is from Daunton, and we can see that throughout the nineteenth century policymaking involved commiting to institutions that made it easy to invest internationally, and that insulated wealth holders from concerns that changing values of currencies would effect them
+        - It is perhaps the preferred policy mix of the rentier
+        - But it made them unable to respond to problems like unemployment the way a modern central bank might
+        - This becomes painfully apparent after WWI as British suffrage expands, union membership expands and unemployment rises
+            + Ultimately, Britain will abandon the gold standard and the final Bretton woods settlement will block free capital movements
+            + Incidentally, we mostly now cope with this problem by allowing exchange rates to adjust
+
+23. Economic globalization and WWI
+
++ Despite the factors surveyed above, it is temping sometimes to think that the machine of economic globalization would have just ground on were it not for the sudden and discontinuous rupture of WWI
+    * Perhaps it would but some scholars have provocatively suggested that we might even look for the origins of WWI in the economic system of the 19th c.
 + In fact, scholars such as Adam Tooze and Ted Fertik have suggested it is more sensible to focus on how this period of intensive global exchange generated contradictions that tended to unravel the process of globalization
     * For one, there were many 'losers' of globalization, including European agriculture
     * European countries had to negotiate political settlements to cope with the influx of cheap agriculture products. Many, such as france, turned towards agricultural protection.
